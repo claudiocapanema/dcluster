@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  web:
+    image: dcluster
+    build: .
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/dcluster_v2/
+    ports:
+      - "8000:8000"
