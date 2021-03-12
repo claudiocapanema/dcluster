@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
   web:
-    image: dcluster
+    image: dclusteranalytics/dcluster:latest
     build: .
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
