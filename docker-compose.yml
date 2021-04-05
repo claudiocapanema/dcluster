@@ -6,8 +6,9 @@ services:
     image: dclusteranalytics/dcluster:latest
     build: .
     command: >
-      sh -c "python manage.py runserver 0.0.0.0:8000"
+      sh -c "python src/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/dcluster_v2/
     ports:
       - "8000:8000"
+    network_mode: "host"
