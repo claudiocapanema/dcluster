@@ -20,7 +20,7 @@ We provide demonstration data for testing purposes. Navigate to the sections "Da
 
 ## Citing
 
-If you use this code, please cite the [DCluster SBBD 2017](http://www.novoscursos.ufv.br/graduacao/caf/ccp/www/wp-content/uploads/2018/03/Claudio.pdf) article.
+If you use this system, please cite the [DCluster SBBD 2017](http://www.novoscursos.ufv.br/graduacao/caf/ccp/www/wp-content/uploads/2018/03/Claudio.pdf) article.
 
 Bibtex:
 
